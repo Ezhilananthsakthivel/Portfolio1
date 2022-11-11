@@ -49,7 +49,7 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal(".home-title", {});
-sr.reveal(".button", { interval: 150 });
+sr.reveal(".button", { interval: 200 });
 sr.reveal(".home-img", { delay: 150 });
 sr.reveal(".home-social-icon", { interval: 150 });
 
@@ -67,7 +67,7 @@ sr.reveal(".skills-img", { delay: 150 });
 
 /*SCROLL PROJECTS*/
 sr.reveal(".project-img", { interval: 100 });
-sr.reveal(".contact-img", { interval: 100 });
+sr.reveal(".contact-img", { interval: 150 });
 
 
 
