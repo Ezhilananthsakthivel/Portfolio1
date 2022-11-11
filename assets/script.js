@@ -43,15 +43,15 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 1000,
+  duration: 1500,
   reset: true,
 });
 
 /*SCROLL HOME*/
 sr.reveal(".home-title", {});
-sr.reveal(".button", { interval: 100 });
-sr.reveal(".home-img", { delay: 120 });
-sr.reveal(".home-social-icon", { interval: 120 });
+sr.reveal(".button", { interval: 150 });
+sr.reveal(".home-img", { delay: 150 });
+sr.reveal(".home-social-icon", { interval: 150 });
 
 /*SCROLL ABOUT*/
 sr.reveal(".about-img", {});
@@ -61,13 +61,13 @@ sr.reveal(".about-text", { delay: 200 });
 /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
-sr.reveal(".education-data",{interval: 70})
-sr.reveal(".skills-data", { interval: 70 });
-sr.reveal(".skills-img", { delay: 100 });
+sr.reveal(".education-data",{interval: 100})
+sr.reveal(".skills-data", { interval: 100 });
+sr.reveal(".skills-img", { delay: 150 });
 
 /*SCROLL PROJECTS*/
 sr.reveal(".project-img", { interval: 100 });
-sr.reveal(".contact-img", { interval: 70 });
+sr.reveal(".contact-img", { interval: 100 });
 
 
 
