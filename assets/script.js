@@ -42,28 +42,28 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",
-  distance: "100px",
-  duration: 2000,
+  distance: "80px",
+  duration: 2300,
   reset: true,
 });
 
 /*SCROLL HOME*/
-sr.reveal(".home-title", {});
+sr.reveal(".home-title", { delay: 150});
 sr.reveal(".button", { delat: 150 });
-sr.reveal(".home-img", { delay: 120 });
+sr.reveal(".home-img", { delay: 150 });
 sr.reveal(".home-social-icon", { delay: 150 });
 
 /*SCROLL ABOUT*/
-sr.reveal(".about-img", {});
-sr.reveal(".about-subtitle", { delay: 200 });
-sr.reveal(".about-text", { delay: 200 });
+sr.reveal(".about-img", { delay: 150});
+sr.reveal(".about-subtitle", { delay: 150 });
+sr.reveal(".about-text", { delay: 150 });
 
 /*SCROLL SKILLS*/
-sr.reveal(".skills-subtitle", {});
-sr.reveal(".skills-text", {});
-sr.reveal(".education-data",{delay: 150})
+sr.reveal(".skills-subtitle", { delay: 150});
+sr.reveal(".skills-text", { delay: 150});
+sr.reveal(".education-data",{ delay: 150})
 sr.reveal(".skills-data", { delay: 150 });
-sr.reveal(".skills-img", { delay: 100 });
+sr.reveal(".skills-img", { delay: 150 });
 
 /*SCROLL PROJECTS*/
 sr.reveal(".project-img", { delay: 150 });
