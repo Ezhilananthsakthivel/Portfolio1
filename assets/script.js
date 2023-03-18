@@ -43,7 +43,7 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
-  duration: 1800,
+  duration: 1700,
   reset: true,
 });
 
@@ -67,8 +67,8 @@ sr.reveal(".skills-img", { delay: 120 });
 
 /*SCROLL PROJECTS*/
 sr.reveal(".project-img", { delay: 120});
-//sr.reveal(".contact-img", { delay: 80 });
-sr.reveal(".submit", { delay: 120 });
+sr.reveal(".contact-img", { delay: 100 });
+sr.reveal(".submit", { delay: 100 });
 
 
 
