@@ -529,7 +529,9 @@ section .about {
 .project-title {
   margin-bottom: var(--mb-2);
   margin-top: var(--mb-3);
-  font-size: var(--h2-font-size);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
 }
 .project-subtitle {
   margin-bottom: var(--mb-4);
@@ -541,8 +543,10 @@ section .about {
   margin: 1rem;
 }
 .project-btns {
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  
 }
 
 /*** Contact ***/
