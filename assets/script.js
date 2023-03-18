@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
   sections.forEach(section => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    if (scrollY >= sectionTop - 390) {
+    if (scrollY >= sectionTop - 350) {
       current = section.getAttribute('id');
     }
   })
@@ -42,8 +42,8 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",
-  distance: "60px",
-  duration: 1800,
+  distance: "80px",
+  duration: 2000,
   reset: true,
 });
 
@@ -67,7 +67,9 @@ sr.reveal(".skills-img", { delay: 120 });
 
 /*SCROLL PROJECTS*/
 sr.reveal(".project-img", { delay: 120});
-sr.reveal(".contact-img", { delay: 80 });
+
+sr.reveal(".control-input", { interval: 120 });
+sr.reveal(".contact-img", { delay: 100 });
 sr.reveal(".submit", { delay: 100 });
 
 
