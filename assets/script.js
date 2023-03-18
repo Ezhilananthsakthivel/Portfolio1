@@ -49,9 +49,9 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal(".home-title", {});
-sr.reveal(".button", { interval: 110 });
+sr.reveal(".button", { delat: 150 });
 sr.reveal(".home-img", { delay: 120 });
-sr.reveal(".home-social-icon", { interval: 120 });
+sr.reveal(".home-social-icon", { delay: 150 });
 
 /*SCROLL ABOUT*/
 sr.reveal(".about-img", {});
@@ -61,13 +61,13 @@ sr.reveal(".about-text", { delay: 200 });
 /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
-sr.reveal(".education-data",{interval: 70})
-sr.reveal(".skills-data", { interval: 70 });
+sr.reveal(".education-data",{delay: 150})
+sr.reveal(".skills-data", { delay: 150 });
 sr.reveal(".skills-img", { delay: 100 });
 
 /*SCROLL PROJECTS*/
-sr.reveal(".project-img", { interval: 110 });
-sr.reveal(".contact-img", { interval: 80 });
+sr.reveal(".project-img", { delay: 150 });
+sr.reveal(".contact-img", { delay: 150 });
 
 
 
