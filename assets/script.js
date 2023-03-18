@@ -66,7 +66,7 @@ sr.reveal(".skills-data", { delay: 120 });
 sr.reveal(".skills-img", { delay: 120 });
 
 /*SCROLL PROJECTS*/
-sr.reveal(".project-img", { delay: 280});
+// sr.reveal(".project-img", { delay: 280});
 
 // sr.reveal(".contact-img", { delay: 120 });
 // sr.reveal(".control-input", { interval: 120 });
