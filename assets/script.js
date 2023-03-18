@@ -43,7 +43,7 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 2200,
+  duration: 2500,
   reset: true,
 });
 
