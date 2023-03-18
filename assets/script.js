@@ -43,13 +43,13 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 const sr = ScrollReveal({
   origin: "top",
   distance: "50px",
-  duration: 2500,
+  duration: 2300,
   reset: true,
 });
 
 /*SCROLL HOME*/
 sr.reveal(".home-title", {delay: 120});
-sr.reveal(".button", { delay: 120 });
+// sr.reveal(".button", { delay: 120 });
 sr.reveal(".home-img", { delay: 120 });
 sr.reveal(".home-social-icon", { delay: 120 });
 
