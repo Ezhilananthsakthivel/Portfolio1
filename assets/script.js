@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
   sections.forEach(section => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    if (scrollY >= sectionTop - 350) {
+    if (scrollY >= sectionTop - 300) {
       current = section.getAttribute('id');
     }
   })
@@ -42,7 +42,7 @@ navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.re
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",
-  distance: "80px",
+  distance: "50px",
   duration: 2500,
   reset: true,
 });
